@@ -1,4 +1,6 @@
 AFRAME.registerComponent('chart', {
-  schema: {},
+  schema: {
+    color: {type: 'string', default: 'tomato'}
+  },
   init: function () {}
 });
